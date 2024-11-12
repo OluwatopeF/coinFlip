@@ -1,0 +1,29 @@
+*{
+    background-color: aqua;
+}
+
+.coin{
+    background-color: lightblue;
+    margin: auto;
+    padding: 10em;
+    width: 50%;
+    height: 30em;
+}
+
+.coin-stat{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    padding: auto;
+    margin: auto;
+    height: 15rem;
+    width: 50%;
+    align-items: center;
+}
+
+.coin-stat button{
+    width: 15em;
+    height: 2em;
+    background-color: bisque;
+    border-radius: 30px;
+}

@@ -1,9 +1,13 @@
 //
 import FlipOdds from './components/FilpOdds';
+import Coin from './components/Coin';
 
 function App(){
   return (
-    <div><FlipOdds/></div>
+    <div className='mainApp'>
+      <Coin/>
+      <FlipOdds/>
+    </div>
   );
 }
 
