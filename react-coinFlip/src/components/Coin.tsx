@@ -10,7 +10,16 @@ function coin(){
 
     return(
         <>
-        <div className="coin">Coin flip animation (in later update)</div>
+        <div className="coin">
+            <div className="coinHT">
+                <h1>Heads</h1>
+            </div>
+            <div className="coinHT">
+                <h1>Tails</h1>
+            </div>
+
+
+        </div>
 
         </>
     )
