@@ -10,17 +10,15 @@ function coin(){
 
     return(
         <>
-        <div className="coin">
-            <div className="coinHT">
-                <h1>Heads</h1>
+            <div className="coin">
+                <div className="heads">
+                    <h1>HEADS</h1>
+                </div>
+
+                <div className="tails">
+                    <h1>TAILS</h1>
+                </div>
             </div>
-            <div className="coinHT">
-                <h1>Tails</h1>
-            </div>
-
-
-        </div>
-
         </>
     )
 }
