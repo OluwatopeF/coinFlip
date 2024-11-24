@@ -2,21 +2,24 @@
     background-color: aqua;
 }
 
+/* .appContainer{
+
+} */
+
 .coin{
     perspective: 1000px;
     height: 30em;
-    width: 50%;
+    width: 30em;
     position: relative;
     margin: auto;
     transform-style: preserve-3d;
-    
+    transition: all 0.3 ease;
 }
 
-
-.coin:hover{
-    animation: coinFlip 0.6s;
-    transform-style: preserve-3d;
+.coin.animating{
+    animation: coinFlip 2s forwards;
 }
+
 
 .heads, .tails{
     position: absolute;
